@@ -1,0 +1,72 @@
+2020-08-10 15:18:50 [-][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @vender/devanych/yii2-cart/migrations in E:\Xampp\htdocs\abysand\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 E:\Xampp\htdocs\abysand\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(130): yii\BaseYii::getAlias('@vender/devanyc...')
+#1 E:\Xampp\htdocs\abysand\vendor\yiisoft\yii2\console\controllers\MigrateController.php(182): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 E:\Xampp\htdocs\abysand\vendor\yiisoft\yii2\base\Controller.php(178): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#3 E:\Xampp\htdocs\abysand\vendor\yiisoft\yii2\console\Controller.php(181): yii\base\Controller->runAction('', Array)
+#4 E:\Xampp\htdocs\abysand\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#5 E:\Xampp\htdocs\abysand\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#6 E:\Xampp\htdocs\abysand\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#7 E:\Xampp\htdocs\abysand\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 E:\Xampp\htdocs\abysand\yii(23): yii\base\Application->run()
+#9 {main}
+2020-08-10 15:18:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Andrei Moldovan\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5AJQ2K4'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Andrei Moldovan'
+    'LOCALAPPDATA' => 'C:\\Users\\Andrei Moldovan\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5AJQ2K4'
+    'NUMBER_OF_PROCESSORS' => '12'
+    'OneDrive' => 'C:\\Users\\Andrei Moldovan\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\Andrei Moldovan\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\Razer Chroma SDK\\bin;C:\\Program Files\\Razer Chroma SDK\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;E:\\PuttY\\;C:\\Users\\Andrei Moldovan\\AppData\\Local\\Microsoft\\WindowsApps;E:\\Microsoft VS Code\\bin;E:\\Xampp\\php;C:\\Users\\Andrei Moldovan\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 165 Stepping 2, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => 'a502'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Users\\Andrei Moldovan\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\ANDREI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ANDREI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5AJQ2K4'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5AJQ2K4'
+    'USERNAME' => 'Andrei Moldovan'
+    'USERPROFILE' => 'C:\\Users\\Andrei Moldovan'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1597065530.1577
+    'REQUEST_TIME' => 1597065530
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@vender/devanych/yii2-cart/migrations'
+    ]
+    'argc' => 3
+]

@@ -1,0 +1,3 @@
+ssh: abysand2020agency
+164.90.227.36
+
